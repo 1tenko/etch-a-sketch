@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    border: solid 2px black;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    height: 75vh;
+    width: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    justify-self: stretch;
+}
+
+.gridItem {
+    border: solid 2px black;
+}
