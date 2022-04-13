@@ -9,6 +9,7 @@
     margin-right: auto;
     align-content: stretch;
     justify-self: stretch;
+    padding: 10px;
 }
 
 .gridItem {
