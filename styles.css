@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
 .container {
     display: grid;
     border: solid 2px black;
@@ -14,4 +20,8 @@
 
 .gridItem {
     border: solid 2px black;
+}
+
+button {
+    font-size: 48px;
 }
